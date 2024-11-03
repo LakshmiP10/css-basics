@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css display</title>
+    <style>
+        h3 {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            display: inline;
+        }
+        div{
+            margin: 10px;
+        }
+
+        a {
+            background-color: teal;
+            color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            display: block;
+        }
+        h2{
+            color: blue;
+        }
+        h1{
+            color: red;
+            display: none;
+        }
+        .parent{
+            background-color: lightgrey;
+            padding: 10px;
+            text-align: center;
+        }
+        .child{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            width: 200px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- inline -->
+     <h2>Block level elements display inline format</h2>
+    <div>
+        <h3>Good Morning</h3>
+        <h3>Good Afternoon</h3>
+        <h3>Good Evening</h3>
+    </div>
+
+
+    <!-- block -->
+     <h2>Inline elements display in block</h2>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contacat Us</a>
+        <a href="#">Services</a>
+    </div>
+    <!-- hidden -->
+    <h2>display none. Don't show elements</h2>
+    <div>
+        <h1>Hello. I am hidden elemetns</h1>
+    </div>
+    <!-- display inline-block -->
+     <h2>display inline-block elements</h2>
+     <div class="parent">
+        <div class="child">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam dolorem laborum, ratione quam aspernatur consequuntur. Omnis magnam perspiciatis, distinctio nobis eligendi excepturi explicabo molestiae dignissimos culpa exercitationem, earum sunt officia praesentium at veritatis repellendus dicta corporis, labore totam ea quas!</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam dolorem laborum, ratione quam aspernatur consequuntur. Omnis magnam perspiciatis, distinctio nobis eligendi excepturi explicabo molestiae dignissimos culpa exercitationem, earum sunt officia praesentium at veritatis repellendus dicta corporis, labore totam ea quas!</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam dolorem laborum, ratione quam aspernatur consequuntur. Omnis magnam perspiciatis, distinctio nobis eligendi excepturi explicabo molestiae dignissimos culpa exercitationem, earum sunt officia praesentium at veritatis repellendus dicta corporis, labore totam ea quas!</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam dolorem laborum, ratione quam aspernatur consequuntur. Omnis magnam perspiciatis, distinctio nobis eligendi excepturi explicabo molestiae dignissimos culpa exercitationem, earum sunt officia praesentium at veritatis repellendus dicta corporis, labore totam ea quas!</p>
+        </div>
+     </div>
+
+
+</body>
+
+</html>
