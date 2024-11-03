@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 500px;
+        }
+        #bg-color{
+            background-color: teal;
+        }
+        #bg-image{
+            background-image: url("./img/woman.jpg");
+            color: white;
+            padding: 10px;
+        }
+        #bg-attachment{
+            height: 250px;
+            box-shadow: 0 0 10px black;
+            background: white url(./img/women2.webp) no-repeat fixed center;
+        }
+        #bg-repeat{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            background-image: url("./img/plant1.png");
+            background-repeat: repeat-x;
+
+        }
+        /* #bg-position{
+            width: 500px;
+            height: 400px;
+            background-color: salmon;
+            background-image: url(./img/plant1.png);
+            background-repeat: repeat-x;
+            background-position: center;
+        } */
+         /* shorcut background property */
+         #bg-position{
+            width: 500px;
+            height: 400px;
+            padding: 10px;
+            box-shadow: 0 0 10px black;
+            background: skyblue url('./img/plant1.png') no-repeat scroll top right;
+
+         }
+         #bg-size{
+            width: 400px;
+            height: 267px;
+            box-shadow: 0 0 10px black;
+            background-image: url('./img/woman3.webp');
+            background-size: contain;
+         }
+         #bg-gradient{
+            width: 250px;
+            height:250px ;
+            box-shadow: 0 0 10px black;
+            background: linear-gradient(45deg,red,black,red);
+         }
+         #bg-radial-gradient{
+            width: 250px;
+            height:250px ;
+            box-shadow: 0 0 10px black;
+            background: radial-gradient(red,blue,green);
+         }
+    </style>
+</head>
+<body>
+    <h2>background color</h2>
+    <div id="bg-color">
+        <h1>I am with teal color background</h1>
+
+    </div>
+    <h2>Background-Image</h2>
+    <div id="bg-image">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, cum quas accusantium eveniet recusandae repellat deserunt sequi unde dolor odio!
+    </div>
+    <h2>background attachment</h2>
+    <div id="bg-attachment">
+
+    </div>
+    <h2>Background repeat</h2>
+    <div id="bg-repeat">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem unde perspiciatis dolorem error repudiandae iure sunt, fugit veniam aliquam distinctio ab quam, temporibus suscipit nostrum ipsum quae? Accusamus nemo atque natus, ut quia neque dolorem corrupti consequuntur cumque. Tenetur dolorem quia distinctio doloremque perferendis est vel unde nam quidem aut!
+    </div>
+    <h2>background position</h2>
+    <div id="bg-position">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quo perferendis quia, delectus iste excepturi omnis sequi quasi explicabo repellendus eos minus perspiciatis libero culpa saepe atque repudiandae consequatur nobis fugiat. Enim nam iste facilis quas odit dicta maxime ex est consectetur culpa, molestias, quibusdam neque molestiae veniam fugiat iure.
+    </div>
+    <h2>background size</h2>
+    <div id="bg-size">
+
+    </div>
+    <h2>Gradient</h2>
+    <div id="bg-gradient">
+
+    </div>
+    <h2>radial gradient</h2>
+    <div id="bg-radial-gradient">
+
+    </div>
+    
+</body>
+</html>
